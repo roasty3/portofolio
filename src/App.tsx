@@ -6,6 +6,17 @@ import {
   Layers, Menu, X, Moon, Sun, PlayCircle, MessageCircle, Send, Mail
 } from 'lucide-react';
 
+import fotoScreenshot from './assets/fotoportofolio/Screenshot_20260417_125508.png';
+import amv1 from './assets/fotoportofolio/amv1.png';
+import amv2 from './assets/fotoportofolio/amv2.png';
+import foto1 from './assets/fotoportofolio/IDG_20260411_144636_137.jpg';
+import foto2 from './assets/fotoportofolio/IDG_20260411_144752_313.jpg';
+import foto3 from './assets/fotoportofolio/IDG_20260411_144814_133.jpg';
+import foto4 from './assets/fotoportofolio/IDG_20260411_144541_125.jpg';
+import foto5 from './assets/fotoportofolio/IMG_6178.JPG';
+import foto6 from './assets/fotoportofolio/IMG_6183.JPG';
+import foto7 from './assets/fotoportofolio/IMG_6422.JPG';
+
 const NAV_LINKS = [
   { name: 'Home', href: '#home' },
   { name: 'Education', href: '#education' },
@@ -26,25 +37,25 @@ const SOFTWARE = [
 const VIDEOS = [
   { id: 1, title: 'Video Portfolio 1', img: 'https://img.youtube.com/vi/yYEral7BWzw/hqdefault.jpg', url: 'https://youtu.be/yYEral7BWzw?si=MEzewTV4UoIdLA8m' },
   { id: 2, title: 'Video Portfolio 2', img: 'https://img.youtube.com/vi/zvOS7wBUp-o/hqdefault.jpg', url: 'https://youtu.be/zvOS7wBUp-o?si=Z1858I5z0CRN4Wem' },
-  { id: 3, title: 'Instagram Reel Portfolio', img: '/fotoportofolio/Screenshot_20260417_125508.png', url: 'https://www.instagram.com/reel/DWyMzr6DKla/?utm_source=ig_web_copy_link' },
+  { id: 3, title: 'Instagram Reel Portfolio', img: fotoScreenshot, url: 'https://www.instagram.com/reel/DWyMzr6DKla/?utm_source=ig_web_copy_link' },
   { id: 4, title: 'Video Portfolio 3', img: 'https://img.youtube.com/vi/O6DiEJBS3Dk/hqdefault.jpg', url: 'https://youtu.be/O6DiEJBS3Dk?si=henCEtxekdw4p9Vf' },
 ];
 
 const PHOTOS = [
-  { id: 1, title: 'Jakarta Pusat', img: '/fotoportofolio/IDG_20260411_144636_137.jpg' },
-  { id: 2, title: 'Street Photography 1', img: '/fotoportofolio/IDG_20260411_144752_313.jpg' },
-  { id: 3, title: 'Nature Landscape', img: '/fotoportofolio/IDG_20260411_144814_133.jpg' },
-  { id: 4, title: 'Architecture Study', img: '/fotoportofolio/IDG_20260411_144541_125.jpg' },
-  { id: 5, title: 'Portofolio IMG 6178', img: '/fotoportofolio/IMG_6178.JPG' },
-  { id: 6, title: 'Portofolio IMG 6183', img: '/fotoportofolio/IMG_6183.JPG' },
-  { id: 7, title: 'Portofolio IMG 6422', img: '/fotoportofolio/IMG_6422.JPG' },
+  { id: 1, title: 'Jakarta Pusat', img: foto1 },
+  { id: 2, title: 'Street Photography 1', img: foto2 },
+  { id: 3, title: 'Nature Landscape', img: foto3 },
+  { id: 4, title: 'Architecture Study', img: foto4 },
+  { id: 5, title: 'Portofolio IMG 6178', img: foto5 },
+  { id: 6, title: 'Portofolio IMG 6183', img: foto6 },
+  { id: 7, title: 'Portofolio IMG 6422', img: foto7 },
 ];
 
 const AMV_VIDEOS = [
   { id: 1, title: 'AMV Project 1', img: 'https://img.youtube.com/vi/93C1MVgwxB4/hqdefault.jpg', url: 'https://youtu.be/93C1MVgwxB4?si=T_WvfXldhkwPtymI' },
   { id: 2, title: 'AMV Project 2', img: 'https://img.youtube.com/vi/0A5GgwfVDA8/hqdefault.jpg', url: 'https://youtu.be/0A5GgwfVDA8?si=-8rhv0a2DMeAsPJY' },
-  { id: 3, title: 'Motion Graph 1', img: '/fotoportofolio/amv1.png', url: 'https://www.instagram.com/reel/DVRUR86EriA/?utm_source=ig_web_copy_link' },
-  { id: 4, title: 'Motion Graph 2', img: '/fotoportofolio/amv2.png', url: 'https://www.instagram.com/reel/DQ5QQzCkq4F/?utm_source=ig_web_copy_link' },
+  { id: 3, title: 'Motion Graph 1', img: amv1, url: 'https://www.instagram.com/reel/DVRUR86EriA/?utm_source=ig_web_copy_link' },
+  { id: 4, title: 'Motion Graph 2', img: amv2, url: 'https://www.instagram.com/reel/DQ5QQzCkq4F/?utm_source=ig_web_copy_link' },
 ];
 
 export default function App() {
